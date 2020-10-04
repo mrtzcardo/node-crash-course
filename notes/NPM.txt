@@ -1,0 +1,9 @@
+To constantly update code when using JS
+	nodemon script.js
+
+When downloading packages from github, often node-modules (packages) aren't included.
+The file package.json will have a section called "dependencies" that include a list of the 
+packages used within the code. Use code below to download them all swiftly.
+	npm install
+
+
